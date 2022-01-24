@@ -11,6 +11,7 @@
 		1030E9A3279F354D008F815D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030E9A2279F354D008F815D /* ContentView.swift */; };
 		1030E9A5279F3553008F815D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1030E9A4279F3553008F815D /* Assets.xcassets */; };
 		1030E9A8279F3553008F815D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1030E9A7279F3553008F815D /* Preview Assets.xcassets */; };
+		1030E9B1279F35B4008F815D /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1030E9B0279F35B4008F815D /* UIKit+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1030E9A2279F354D008F815D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1030E9A4279F3553008F815D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1030E9A7279F3553008F815D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1030E9B0279F35B4008F815D /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1030E9A0279F354D008F815D /* Extension_GeneralApp.swift */,
 				1030E9A2279F354D008F815D /* ContentView.swift */,
+				1030E9AE279F3590008F815D /* UIKit */,
 				1030E9A4279F3553008F815D /* Assets.xcassets */,
 				1030E9A6279F3553008F815D /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				1030E9A7279F3553008F815D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1030E9AE279F3590008F815D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1030E9B0279F35B4008F815D /* UIKit+Extension.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1030E9A3279F354D008F815D /* ContentView.swift in Sources */,
+				1030E9B1279F35B4008F815D /* UIKit+Extension.swift in Sources */,
 				1030E9A1279F354D008F815D /* Extension_GeneralApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
